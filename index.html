@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="navegacion">
+        <div class="BarraPrincipalSuperior">
+            </h1>
+            <div class="nav__barra">
+                <img class="imagenLogo" src="https://i.ibb.co/2M8YT6X/cuyodex1.png" alt="logo">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="Titulo">Aqui puedes buscar y tener las estadisticas de tu Pokemon favorito</h1>
+    </div>
+    
+    <form action="" onsubmit="searchPokemon(event)">
+        <div>
+            <input type="text" name="pokemon" autocomplete="off" placeholder="Busca Por nombre o ID"> <button>Buscar
+                Pokemon</button>
+        </div>
+    </form>
+
+    <div data-poke-card class="poke-card">
+        <div data-poke-name>Pokedex</div>
+        <div data-poke-img-container class="img-container">
+            <img data-poke-img class="poke-img" src="./poke-shadow.png" />
+        </div>
+        <div data-poke-id></div>
+        <div data-poke-types class="poke-types"></div>
+        <div data-poke-stats class="poke-stats"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Poppins:wght@100&display=swap');
+
+form{
+    position: absolute;
+    top: 170px;
+    left: 590px;
+    width: 320px;
+    height: 55px;
+   
+
+}
+ input{
+    width: 140px;
+    height: 25px;
+    padding: 10px;
+    margin-right: 30px;
+    border-radius: 50px;
+    background-color: rgb(252, 253, 163) ;
+ }
+
+ button{
+    font-family:monospace;
+    font-weight: 500;
+    background-color: rgb(255, 105, 97) ;
+    color:white;
+    font-weight: 400px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px rgba(30, 56, 173, 0.466);
+    font-size: 16px;
+    border-color: rgb(255, 105, 97);
+    position: absolute;
+    top: 0px;
+ }
+
+ button:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+ }
+
+ body{
+    height: 800px;
+    background-image: url(https://wallpapercave.com/wp/wp4979506.jpg);
+    background-image: url(https://i.pinimg.com/originals/5e/fc/94/5efc94c50eb23675465c902b29330b38.png);
+    background-blend-mode: soft-light;
+    background-size: 200px;
+    background-repeat:repeat;
+    background-position:left;
+ }
+
+ .imagenLogo{
+     width: 200px;
+     height: 7rem;
+     position: absolute;
+     top: 0;
+     left: 650px;
+     
+ }
+
+
+ .navegacion{
+    background-color: #4aa9f7;
+    width: 101%;
+    height: 7rem;
+    position: absolute;
+    top: 0px;
+    left: -4.5px;
+    padding-top: 5px;
+    z-index: 11;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+}
+
+.Titulo{
+    position:relative;
+    top: 110px;
+    font-size: 22px ;
+    font-weight: 500 ;
+    font-family: 'Fredoka', sans-serif;
+    color: black;
+    text-align: center;
+    width: 780px;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    background-color: aquamarine;
+    left: 350px;
+    
+
+}
+
+
+ .poke-card {
+     position: relative;
+     height: fit-content;
+     font-family: 'Roboto Mono', monospace;
+     max-width: 300px;
+     border-radius: 4px;
+     color: black;
+     text-align: center;
+     padding: 10px;
+     margin: 0 auto;
+     background: white;
+     border: 1px solid black;
+     margin-top: 200px;
+
+ }
+
+ .poke-card::before {
+    content:'';
+    background: radial-gradient( red 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+ }
+
+    .img-container {
+        position: relative;
+        width: 180px;
+        margin: 10px auto;
+    }
+
+    .poke-stats div{
+        display:flex;
+        justify-content: space-between;
+        align-content: space-between;
+        padding: 5px;
+        font-size: 18px;
+        border: 1px dashed purple;
+    }
+   
+    .poke-types div {
+        padding:5px;
+        margin: 5px;
+        border-radius: 4px;
+        border: 1px dashed black;
+    }
+
+    .poke-img{
+        width: 180px;
+        border-radius: 50%;
+    }
